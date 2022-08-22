@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "ReactNavigationDemo",
-    "slug": "ReactNavigationDemo",
-    "version": "1.0.0",
+    "name": "File explorer",
+    "slug": "file-explorer",
+    "version": "0.0.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "file-explorer",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",

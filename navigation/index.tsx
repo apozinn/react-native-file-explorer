@@ -4,6 +4,7 @@
  *
  */
 import { FontAwesome } from '@expo/vector-icons';
+import { AntDesign } from '@expo/vector-icons'; 
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer, DefaultTheme, DarkTheme } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -80,6 +81,7 @@ function BottomTabNavigator() {
                 color={Colors[colorScheme].text}
                 style={{ marginRight: 15 }}
               />
+              <AntDesign name="arrowright" size={24} color="black" />
             </Pressable>
           ),
         })}
